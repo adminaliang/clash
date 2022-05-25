@@ -38,83 +38,98 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_253
-      - Relay_🇨🇳CN-🇹🇼TW_243 |23.54Mb
-      - CN_225 |11.45Mb
-      - CN_41 | 1.32Mb
-      - CN_46 | 8.31Mb
-      - CN_49 | 3.86Mb
-      - CN_300 | 6.66Mb
-      - CN_304 | 6.81Mb
-      - CN_247 | 4.38Mb
-      - CN_44 | 7.01Mb
-      - CN_47 | 2.54Mb
-      - CN_50 | 7.14Mb
-      - CN_296 | 6.41Mb
-      - CN_104 | 1.79Mb
-      - CN_151 | 7.47Mb
-      - CN_65 | 8.18Mb
-      - CN_242 | 8.20Mb
-      - CN_241
-      - CN_251 | 2.16Mb
-      - CN_226 |12.16Mb
-      - CN_45 | 3.83Mb
-      - CN_42 | 3.90Mb
+      - CN_95 |48.82Mb
+      - CN_92 |52.15Mb
+      - CN_91 |42.71Mb
+      - CN_390 |25.23Mb
+      - CN_359 |24.65Mb
+      - CN_364 |23.86Mb
+      - CN_55 | 7.01Mb
+      - CN_48 | 3.86Mb
+      - CN_53 |118.21Mb
+      - CN_57 | 8.27Mb
+      - CN_204
+      - CN_123 | 1.79Mb
+      - CN_320 | 9.45Mb
+      - CN_42 | 1.32Mb
+      - CN_65 | 1.34Mb
+      - CN_37 | 7.34Mb
+      - CN_62 | 8.18Mb
+      - CN_38 | 3.83Mb
+      - CN_56 | 3.90Mb
+      - CN_47 | 7.14Mb
+      - CN_50 | 7.15Mb
+      - CN_34 | 8.31Mb
+      - CN_60 | 3.37Mb
+      - CN_64 |19.24Mb
+      - CN_54 | 2.54Mb
+      - CN_45 |246.41Mb
+      - CN_39 | 0.99Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇹🇼TW_253
-      - Relay_🇨🇳CN-🇹🇼TW_243 |23.54Mb
-      - CN_225 |11.45Mb
-      - CN_41 | 1.32Mb
-      - CN_46 | 8.31Mb
-      - CN_49 | 3.86Mb
-      - CN_300 | 6.66Mb
-      - CN_304 | 6.81Mb
-      - CN_247 | 4.38Mb
-      - CN_44 | 7.01Mb
-      - CN_47 | 2.54Mb
-      - CN_50 | 7.14Mb
-      - CN_296 | 6.41Mb
-      - CN_104 | 1.79Mb
-      - CN_151 | 7.47Mb
-      - CN_65 | 8.18Mb
-      - CN_242 | 8.20Mb
-      - CN_241
-      - CN_251 | 2.16Mb
-      - CN_226 |12.16Mb
-      - CN_45 | 3.83Mb
-      - CN_42 | 3.90Mb
+      - CN_95 |48.82Mb
+      - CN_92 |52.15Mb
+      - CN_91 |42.71Mb
+      - CN_390 |25.23Mb
+      - CN_359 |24.65Mb
+      - CN_364 |23.86Mb
+      - CN_55 | 7.01Mb
+      - CN_48 | 3.86Mb
+      - CN_53 |118.21Mb
+      - CN_57 | 8.27Mb
+      - CN_204
+      - CN_123 | 1.79Mb
+      - CN_320 | 9.45Mb
+      - CN_42 | 1.32Mb
+      - CN_65 | 1.34Mb
+      - CN_37 | 7.34Mb
+      - CN_62 | 8.18Mb
+      - CN_38 | 3.83Mb
+      - CN_56 | 3.90Mb
+      - CN_47 | 7.14Mb
+      - CN_50 | 7.15Mb
+      - CN_34 | 8.31Mb
+      - CN_60 | 3.37Mb
+      - CN_64 |19.24Mb
+      - CN_54 | 2.54Mb
+      - CN_45 |246.41Mb
+      - CN_39 | 0.99Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_253
-      - Relay_🇨🇳CN-🇹🇼TW_243 |23.54Mb
-      - CN_225 |11.45Mb
-      - CN_41 | 1.32Mb
-      - CN_46 | 8.31Mb
-      - CN_49 | 3.86Mb
-      - CN_300 | 6.66Mb
-      - CN_304 | 6.81Mb
-      - CN_247 | 4.38Mb
-      - CN_44 | 7.01Mb
-      - CN_47 | 2.54Mb
-      - CN_50 | 7.14Mb
-      - CN_296 | 6.41Mb
-      - CN_104 | 1.79Mb
-      - CN_151 | 7.47Mb
-      - CN_65 | 8.18Mb
-      - CN_242 | 8.20Mb
-      - CN_241
-      - CN_251 | 2.16Mb
-      - CN_226 |12.16Mb
-      - CN_45 | 3.83Mb
-      - CN_42 | 3.90Mb
+      - CN_95 |48.82Mb
+      - CN_92 |52.15Mb
+      - CN_91 |42.71Mb
+      - CN_390 |25.23Mb
+      - CN_359 |24.65Mb
+      - CN_364 |23.86Mb
+      - CN_55 | 7.01Mb
+      - CN_48 | 3.86Mb
+      - CN_53 |118.21Mb
+      - CN_57 | 8.27Mb
+      - CN_204
+      - CN_123 | 1.79Mb
+      - CN_320 | 9.45Mb
+      - CN_42 | 1.32Mb
+      - CN_65 | 1.34Mb
+      - CN_37 | 7.34Mb
+      - CN_62 | 8.18Mb
+      - CN_38 | 3.83Mb
+      - CN_56 | 3.90Mb
+      - CN_47 | 7.14Mb
+      - CN_50 | 7.15Mb
+      - CN_34 | 8.31Mb
+      - CN_60 | 3.37Mb
+      - CN_64 |19.24Mb
+      - CN_54 | 2.54Mb
+      - CN_45 |246.41Mb
+      - CN_39 | 0.99Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -133,28 +148,33 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_253
-      - Relay_🇨🇳CN-🇹🇼TW_243 |23.54Mb
-      - CN_225 |11.45Mb
-      - CN_41 | 1.32Mb
-      - CN_46 | 8.31Mb
-      - CN_49 | 3.86Mb
-      - CN_300 | 6.66Mb
-      - CN_304 | 6.81Mb
-      - CN_247 | 4.38Mb
-      - CN_44 | 7.01Mb
-      - CN_47 | 2.54Mb
-      - CN_50 | 7.14Mb
-      - CN_296 | 6.41Mb
-      - CN_104 | 1.79Mb
-      - CN_151 | 7.47Mb
-      - CN_65 | 8.18Mb
-      - CN_242 | 8.20Mb
-      - CN_241
-      - CN_251 | 2.16Mb
-      - CN_226 |12.16Mb
-      - CN_45 | 3.83Mb
-      - CN_42 | 3.90Mb
+      - CN_95 |48.82Mb
+      - CN_92 |52.15Mb
+      - CN_91 |42.71Mb
+      - CN_390 |25.23Mb
+      - CN_359 |24.65Mb
+      - CN_364 |23.86Mb
+      - CN_55 | 7.01Mb
+      - CN_48 | 3.86Mb
+      - CN_53 |118.21Mb
+      - CN_57 | 8.27Mb
+      - CN_204
+      - CN_123 | 1.79Mb
+      - CN_320 | 9.45Mb
+      - CN_42 | 1.32Mb
+      - CN_65 | 1.34Mb
+      - CN_37 | 7.34Mb
+      - CN_62 | 8.18Mb
+      - CN_38 | 3.83Mb
+      - CN_56 | 3.90Mb
+      - CN_47 | 7.14Mb
+      - CN_50 | 7.15Mb
+      - CN_34 | 8.31Mb
+      - CN_60 | 3.37Mb
+      - CN_64 |19.24Mb
+      - CN_54 | 2.54Mb
+      - CN_45 |246.41Mb
+      - CN_39 | 0.99Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -165,83 +185,98 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇹🇼TW_253
-      - Relay_🇨🇳CN-🇹🇼TW_243 |23.54Mb
-      - CN_225 |11.45Mb
-      - CN_41 | 1.32Mb
-      - CN_46 | 8.31Mb
-      - CN_49 | 3.86Mb
-      - CN_300 | 6.66Mb
-      - CN_304 | 6.81Mb
-      - CN_247 | 4.38Mb
-      - CN_44 | 7.01Mb
-      - CN_47 | 2.54Mb
-      - CN_50 | 7.14Mb
-      - CN_296 | 6.41Mb
-      - CN_104 | 1.79Mb
-      - CN_151 | 7.47Mb
-      - CN_65 | 8.18Mb
-      - CN_242 | 8.20Mb
-      - CN_241
-      - CN_251 | 2.16Mb
-      - CN_226 |12.16Mb
-      - CN_45 | 3.83Mb
-      - CN_42 | 3.90Mb
+      - CN_95 |48.82Mb
+      - CN_92 |52.15Mb
+      - CN_91 |42.71Mb
+      - CN_390 |25.23Mb
+      - CN_359 |24.65Mb
+      - CN_364 |23.86Mb
+      - CN_55 | 7.01Mb
+      - CN_48 | 3.86Mb
+      - CN_53 |118.21Mb
+      - CN_57 | 8.27Mb
+      - CN_204
+      - CN_123 | 1.79Mb
+      - CN_320 | 9.45Mb
+      - CN_42 | 1.32Mb
+      - CN_65 | 1.34Mb
+      - CN_37 | 7.34Mb
+      - CN_62 | 8.18Mb
+      - CN_38 | 3.83Mb
+      - CN_56 | 3.90Mb
+      - CN_47 | 7.14Mb
+      - CN_50 | 7.15Mb
+      - CN_34 | 8.31Mb
+      - CN_60 | 3.37Mb
+      - CN_64 |19.24Mb
+      - CN_54 | 2.54Mb
+      - CN_45 |246.41Mb
+      - CN_39 | 0.99Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_253
-      - Relay_🇨🇳CN-🇹🇼TW_243 |23.54Mb
-      - CN_225 |11.45Mb
-      - CN_41 | 1.32Mb
-      - CN_46 | 8.31Mb
-      - CN_49 | 3.86Mb
-      - CN_300 | 6.66Mb
-      - CN_304 | 6.81Mb
-      - CN_247 | 4.38Mb
-      - CN_44 | 7.01Mb
-      - CN_47 | 2.54Mb
-      - CN_50 | 7.14Mb
-      - CN_296 | 6.41Mb
-      - CN_104 | 1.79Mb
-      - CN_151 | 7.47Mb
-      - CN_65 | 8.18Mb
-      - CN_242 | 8.20Mb
-      - CN_241
-      - CN_251 | 2.16Mb
-      - CN_226 |12.16Mb
-      - CN_45 | 3.83Mb
-      - CN_42 | 3.90Mb
+      - CN_95 |48.82Mb
+      - CN_92 |52.15Mb
+      - CN_91 |42.71Mb
+      - CN_390 |25.23Mb
+      - CN_359 |24.65Mb
+      - CN_364 |23.86Mb
+      - CN_55 | 7.01Mb
+      - CN_48 | 3.86Mb
+      - CN_53 |118.21Mb
+      - CN_57 | 8.27Mb
+      - CN_204
+      - CN_123 | 1.79Mb
+      - CN_320 | 9.45Mb
+      - CN_42 | 1.32Mb
+      - CN_65 | 1.34Mb
+      - CN_37 | 7.34Mb
+      - CN_62 | 8.18Mb
+      - CN_38 | 3.83Mb
+      - CN_56 | 3.90Mb
+      - CN_47 | 7.14Mb
+      - CN_50 | 7.15Mb
+      - CN_34 | 8.31Mb
+      - CN_60 | 3.37Mb
+      - CN_64 |19.24Mb
+      - CN_54 | 2.54Mb
+      - CN_45 |246.41Mb
+      - CN_39 | 0.99Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇹🇼TW_253
-      - Relay_🇨🇳CN-🇹🇼TW_243 |23.54Mb
-      - CN_225 |11.45Mb
-      - CN_41 | 1.32Mb
-      - CN_46 | 8.31Mb
-      - CN_49 | 3.86Mb
-      - CN_300 | 6.66Mb
-      - CN_304 | 6.81Mb
-      - CN_247 | 4.38Mb
-      - CN_44 | 7.01Mb
-      - CN_47 | 2.54Mb
-      - CN_50 | 7.14Mb
-      - CN_296 | 6.41Mb
-      - CN_104 | 1.79Mb
-      - CN_151 | 7.47Mb
-      - CN_65 | 8.18Mb
-      - CN_242 | 8.20Mb
-      - CN_241
-      - CN_251 | 2.16Mb
-      - CN_226 |12.16Mb
-      - CN_45 | 3.83Mb
-      - CN_42 | 3.90Mb
+      - CN_95 |48.82Mb
+      - CN_92 |52.15Mb
+      - CN_91 |42.71Mb
+      - CN_390 |25.23Mb
+      - CN_359 |24.65Mb
+      - CN_364 |23.86Mb
+      - CN_55 | 7.01Mb
+      - CN_48 | 3.86Mb
+      - CN_53 |118.21Mb
+      - CN_57 | 8.27Mb
+      - CN_204
+      - CN_123 | 1.79Mb
+      - CN_320 | 9.45Mb
+      - CN_42 | 1.32Mb
+      - CN_65 | 1.34Mb
+      - CN_37 | 7.34Mb
+      - CN_62 | 8.18Mb
+      - CN_38 | 3.83Mb
+      - CN_56 | 3.90Mb
+      - CN_47 | 7.14Mb
+      - CN_50 | 7.15Mb
+      - CN_34 | 8.31Mb
+      - CN_60 | 3.37Mb
+      - CN_64 |19.24Mb
+      - CN_54 | 2.54Mb
+      - CN_45 |246.41Mb
+      - CN_39 | 0.99Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -257,28 +292,33 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇹🇼TW_253
-      - Relay_🇨🇳CN-🇹🇼TW_243 |23.54Mb
-      - CN_225 |11.45Mb
-      - CN_41 | 1.32Mb
-      - CN_46 | 8.31Mb
-      - CN_49 | 3.86Mb
-      - CN_300 | 6.66Mb
-      - CN_304 | 6.81Mb
-      - CN_247 | 4.38Mb
-      - CN_44 | 7.01Mb
-      - CN_47 | 2.54Mb
-      - CN_50 | 7.14Mb
-      - CN_296 | 6.41Mb
-      - CN_104 | 1.79Mb
-      - CN_151 | 7.47Mb
-      - CN_65 | 8.18Mb
-      - CN_242 | 8.20Mb
-      - CN_241
-      - CN_251 | 2.16Mb
-      - CN_226 |12.16Mb
-      - CN_45 | 3.83Mb
-      - CN_42 | 3.90Mb
+      - CN_95 |48.82Mb
+      - CN_92 |52.15Mb
+      - CN_91 |42.71Mb
+      - CN_390 |25.23Mb
+      - CN_359 |24.65Mb
+      - CN_364 |23.86Mb
+      - CN_55 | 7.01Mb
+      - CN_48 | 3.86Mb
+      - CN_53 |118.21Mb
+      - CN_57 | 8.27Mb
+      - CN_204
+      - CN_123 | 1.79Mb
+      - CN_320 | 9.45Mb
+      - CN_42 | 1.32Mb
+      - CN_65 | 1.34Mb
+      - CN_37 | 7.34Mb
+      - CN_62 | 8.18Mb
+      - CN_38 | 3.83Mb
+      - CN_56 | 3.90Mb
+      - CN_47 | 7.14Mb
+      - CN_50 | 7.15Mb
+      - CN_34 | 8.31Mb
+      - CN_60 | 3.37Mb
+      - CN_64 |19.24Mb
+      - CN_54 | 2.54Mb
+      - CN_45 |246.41Mb
+      - CN_39 | 0.99Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
