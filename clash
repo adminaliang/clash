@@ -5,95 +5,207 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港3皖日, server: relay.ahbgp.entrance1-fp.icu, port: 45505, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 香港3隧道中转, server: anhui.jiantian.xyz, port: 58138, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 香港1皖日, server: relay.ahbgp.entrance1-fp.icu, port: 45503, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 香港5隧道中转, server: anhui.jiantian.xyz, port: 19636, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 香港4皖日, server: relay.ahbgp.entrance1-fp.icu, port: 45528, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 香港5皖日, server: relay.ahbgp.entrance1-fp.icu, port: 45529, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 香港IEPL游戏专线x15, server: relay.gziepl.entrance1-fp.icu, port: 25199, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 新加坡2皖日, server: relay.ahbgp.entrance1-fp.icu, port: 45551, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 新加坡1皖日, server: relay.ahbgp.entrance1-fp.icu, port: 45540, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 香港2皖日, server: relay.ahbgp.entrance1-fp.icu, port: 45502, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 新加坡2隧道中转, server: anhui.jiantian.xyz, port: 19053, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 新加坡1隧道中转, server: anhui.jiantian.xyz, port: 16114, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 美国2皖日, server: relay.ahbgp.entrance1-fp.icu, port: 45537, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 韩国1隧道中转, server: anhui.jiantian.xyz, port: 37076, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 美国1皖日, server: relay.ahbgp.entrance1-fp.icu, port: 45536, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 韩国2隧道中转, server: anhui.jiantian.xyz, port: 39175, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 德国皖日, server: relay.ahbgp.entrance1-fp.icu, port: 45614, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
-  - {name: 日本4隧道中转, server: anhui.jiantian.xyz, port: 36945, type: ss, cipher: aes-256-gcm, password: 56de449c-2650-447e-a8f4-8c4f725ab175, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_398 | 3.43Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_348 | 4.32Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_375 |14.39Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_363 |11.37Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_339 | 8.68Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_408 |16.16Mb, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_356 | 3.97Mb, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_397 | 5.42Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_404 | 6.54Mb, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇯🇵JP_16, server: gzyd2.52147.top, port: 30130, type: trojan, password: 2778263c-486d-4af8-9ba4-25fc536b5bac, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_337 | 5.31Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_359 | 8.14Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_333 | 4.40Mb, server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_330 | 3.64Mb, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_364 | 6.16Mb, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_373 | 6.26Mb, server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_98, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_349 | 1.25Mb, server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_395 | 4.73Mb, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_331 | 3.16Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_394 | 3.21Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_334 | 5.98Mb, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_346 | 4.60Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34004, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_386 | 0.78Mb, server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_1199, server: 626sg05.ok365.cyou, port: 80, type: trojan, password: 2c0ca3c5-56c0-40e5-88a5-2545df022088, sni: 626sg05.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: CN_344 |11.91Mb, server: hnyd.52147.top, port: 30130, type: trojan, password: 2778263c-486d-4af8-9ba4-25fc536b5bac, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: US_560 | 5.56Mb, server: 104.224.141.225, port: 700, type: ss, cipher: chacha20-ietf-poly1305, password: boDsItMJ2K6b, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_240 |12.68Mb, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-us-1.onebox6.org}, udp: true}
+  - {name: CA_50 |29.07Mb, server: 161.129.60.17, port: 25634, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, skip-cert-verify: true, udp: true}
+  - {name: TW_526 |28.42Mb, server: hinet.52147.top, port: 28000, type: trojan, password: 2778263c-486d-4af8-9ba4-25fc536b5bac, sni: hinet.52147.top, skip-cert-verify: true, udp: true}
+  - {name: CN_49, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_68, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_118 | 2.58Mb, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_138 | 2.74Mb, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_70, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_61, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_83, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_157 | 1.89Mb, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_75, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_82, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_55, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_61 2, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_72, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_69, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_74, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_125 | 1.35Mb, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港3皖日
-      - 香港3隧道中转
-      - 香港1皖日
-      - 香港5隧道中转
-      - 香港4皖日
-      - 香港5皖日
-      - 香港IEPL游戏专线x15
-      - 新加坡2皖日
-      - 新加坡1皖日
-      - 香港2皖日
-      - 新加坡2隧道中转
-      - 新加坡1隧道中转
-      - 美国2皖日
-      - 韩国1隧道中转
-      - 美国1皖日
-      - 韩国2隧道中转
-      - 德国皖日
-      - 日本4隧道中转
+      - Relay_🇨🇳CN-🇭🇰HK_398 | 3.43Mb
+      - Relay_🇨🇳CN-🇭🇰HK_348 | 4.32Mb
+      - Relay_🇨🇳CN-🇭🇰HK_375 |14.39Mb
+      - Relay_🇨🇳CN-🇭🇰HK_363 |11.37Mb
+      - Relay_🇨🇳CN-🇭🇰HK_339 | 8.68Mb
+      - Relay_🇨🇳CN-🇭🇰HK_408 |16.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_356 | 3.97Mb
+      - Relay_🇨🇳CN-🇭🇰HK_397 | 5.42Mb
+      - Relay_🇨🇳CN-🇭🇰HK_404 | 6.54Mb
+      - Relay_-🇯🇵JP_16
+      - Relay_🇨🇳CN-🇭🇰HK_337 | 5.31Mb
+      - Relay_🇨🇳CN-🇭🇰HK_359 | 8.14Mb
+      - Relay_🇨🇳CN-🇭🇰HK_333 | 4.40Mb
+      - Relay_🇨🇳CN-🇭🇰HK_330 | 3.64Mb
+      - Relay_🇨🇳CN-🇭🇰HK_364 | 6.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_373 | 6.26Mb
+      - Relay_🇨🇳CN-🇹🇼TW_98
+      - Relay_🇨🇳CN-🇺🇸US_349 | 1.25Mb
+      - Relay_🇨🇳CN-🇭🇰HK_395 | 4.73Mb
+      - Relay_🇨🇳CN-🇭🇰HK_331 | 3.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_394 | 3.21Mb
+      - Relay_🇨🇳CN-🇭🇰HK_334 | 5.98Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 4.60Mb
+      - Relay_🇨🇳CN-🇺🇸US_386 | 0.78Mb
+      - Relay_🇸🇬SG-🇸🇬SG_1199
+      - CN_344 |11.91Mb
+      - US_560 | 5.56Mb
+      - Relay_🇨🇳CN-🏁ZZ_240 |12.68Mb
+      - CA_50 |29.07Mb
+      - TW_526 |28.42Mb
+      - CN_49
+      - CN_68
+      - CN_118 | 2.58Mb
+      - CN_138 | 2.74Mb
+      - CN_70
+      - CN_61
+      - CN_83
+      - CN_157 | 1.89Mb
+      - CN_75
+      - CN_82
+      - CN_55
+      - CN_61 2
+      - CN_72
+      - CN_69
+      - CN_74
+      - CN_125 | 1.35Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港3皖日
-      - 香港3隧道中转
-      - 香港1皖日
-      - 香港5隧道中转
-      - 香港4皖日
-      - 香港5皖日
-      - 香港IEPL游戏专线x15
-      - 新加坡2皖日
-      - 新加坡1皖日
-      - 香港2皖日
-      - 新加坡2隧道中转
-      - 新加坡1隧道中转
-      - 美国2皖日
-      - 韩国1隧道中转
-      - 美国1皖日
-      - 韩国2隧道中转
-      - 德国皖日
-      - 日本4隧道中转
+      - Relay_🇨🇳CN-🇭🇰HK_398 | 3.43Mb
+      - Relay_🇨🇳CN-🇭🇰HK_348 | 4.32Mb
+      - Relay_🇨🇳CN-🇭🇰HK_375 |14.39Mb
+      - Relay_🇨🇳CN-🇭🇰HK_363 |11.37Mb
+      - Relay_🇨🇳CN-🇭🇰HK_339 | 8.68Mb
+      - Relay_🇨🇳CN-🇭🇰HK_408 |16.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_356 | 3.97Mb
+      - Relay_🇨🇳CN-🇭🇰HK_397 | 5.42Mb
+      - Relay_🇨🇳CN-🇭🇰HK_404 | 6.54Mb
+      - Relay_-🇯🇵JP_16
+      - Relay_🇨🇳CN-🇭🇰HK_337 | 5.31Mb
+      - Relay_🇨🇳CN-🇭🇰HK_359 | 8.14Mb
+      - Relay_🇨🇳CN-🇭🇰HK_333 | 4.40Mb
+      - Relay_🇨🇳CN-🇭🇰HK_330 | 3.64Mb
+      - Relay_🇨🇳CN-🇭🇰HK_364 | 6.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_373 | 6.26Mb
+      - Relay_🇨🇳CN-🇹🇼TW_98
+      - Relay_🇨🇳CN-🇺🇸US_349 | 1.25Mb
+      - Relay_🇨🇳CN-🇭🇰HK_395 | 4.73Mb
+      - Relay_🇨🇳CN-🇭🇰HK_331 | 3.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_394 | 3.21Mb
+      - Relay_🇨🇳CN-🇭🇰HK_334 | 5.98Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 4.60Mb
+      - Relay_🇨🇳CN-🇺🇸US_386 | 0.78Mb
+      - Relay_🇸🇬SG-🇸🇬SG_1199
+      - CN_344 |11.91Mb
+      - US_560 | 5.56Mb
+      - Relay_🇨🇳CN-🏁ZZ_240 |12.68Mb
+      - CA_50 |29.07Mb
+      - TW_526 |28.42Mb
+      - CN_49
+      - CN_68
+      - CN_118 | 2.58Mb
+      - CN_138 | 2.74Mb
+      - CN_70
+      - CN_61
+      - CN_83
+      - CN_157 | 1.89Mb
+      - CN_75
+      - CN_82
+      - CN_55
+      - CN_61 2
+      - CN_72
+      - CN_69
+      - CN_74
+      - CN_125 | 1.35Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港3皖日
-      - 香港3隧道中转
-      - 香港1皖日
-      - 香港5隧道中转
-      - 香港4皖日
-      - 香港5皖日
-      - 香港IEPL游戏专线x15
-      - 新加坡2皖日
-      - 新加坡1皖日
-      - 香港2皖日
-      - 新加坡2隧道中转
-      - 新加坡1隧道中转
-      - 美国2皖日
-      - 韩国1隧道中转
-      - 美国1皖日
-      - 韩国2隧道中转
-      - 德国皖日
-      - 日本4隧道中转
+      - Relay_🇨🇳CN-🇭🇰HK_398 | 3.43Mb
+      - Relay_🇨🇳CN-🇭🇰HK_348 | 4.32Mb
+      - Relay_🇨🇳CN-🇭🇰HK_375 |14.39Mb
+      - Relay_🇨🇳CN-🇭🇰HK_363 |11.37Mb
+      - Relay_🇨🇳CN-🇭🇰HK_339 | 8.68Mb
+      - Relay_🇨🇳CN-🇭🇰HK_408 |16.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_356 | 3.97Mb
+      - Relay_🇨🇳CN-🇭🇰HK_397 | 5.42Mb
+      - Relay_🇨🇳CN-🇭🇰HK_404 | 6.54Mb
+      - Relay_-🇯🇵JP_16
+      - Relay_🇨🇳CN-🇭🇰HK_337 | 5.31Mb
+      - Relay_🇨🇳CN-🇭🇰HK_359 | 8.14Mb
+      - Relay_🇨🇳CN-🇭🇰HK_333 | 4.40Mb
+      - Relay_🇨🇳CN-🇭🇰HK_330 | 3.64Mb
+      - Relay_🇨🇳CN-🇭🇰HK_364 | 6.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_373 | 6.26Mb
+      - Relay_🇨🇳CN-🇹🇼TW_98
+      - Relay_🇨🇳CN-🇺🇸US_349 | 1.25Mb
+      - Relay_🇨🇳CN-🇭🇰HK_395 | 4.73Mb
+      - Relay_🇨🇳CN-🇭🇰HK_331 | 3.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_394 | 3.21Mb
+      - Relay_🇨🇳CN-🇭🇰HK_334 | 5.98Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 4.60Mb
+      - Relay_🇨🇳CN-🇺🇸US_386 | 0.78Mb
+      - Relay_🇸🇬SG-🇸🇬SG_1199
+      - CN_344 |11.91Mb
+      - US_560 | 5.56Mb
+      - Relay_🇨🇳CN-🏁ZZ_240 |12.68Mb
+      - CA_50 |29.07Mb
+      - TW_526 |28.42Mb
+      - CN_49
+      - CN_68
+      - CN_118 | 2.58Mb
+      - CN_138 | 2.74Mb
+      - CN_70
+      - CN_61
+      - CN_83
+      - CN_157 | 1.89Mb
+      - CN_75
+      - CN_82
+      - CN_55
+      - CN_61 2
+      - CN_72
+      - CN_69
+      - CN_74
+      - CN_125 | 1.35Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,107 +224,211 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港3皖日
-      - 香港3隧道中转
-      - 香港1皖日
-      - 香港5隧道中转
-      - 香港4皖日
-      - 香港5皖日
-      - 香港IEPL游戏专线x15
-      - 新加坡2皖日
-      - 新加坡1皖日
-      - 香港2皖日
-      - 新加坡2隧道中转
-      - 新加坡1隧道中转
-      - 美国2皖日
-      - 韩国1隧道中转
-      - 美国1皖日
-      - 韩国2隧道中转
-      - 德国皖日
-      - 日本4隧道中转
+      - Relay_🇨🇳CN-🇭🇰HK_398 | 3.43Mb
+      - Relay_🇨🇳CN-🇭🇰HK_348 | 4.32Mb
+      - Relay_🇨🇳CN-🇭🇰HK_375 |14.39Mb
+      - Relay_🇨🇳CN-🇭🇰HK_363 |11.37Mb
+      - Relay_🇨🇳CN-🇭🇰HK_339 | 8.68Mb
+      - Relay_🇨🇳CN-🇭🇰HK_408 |16.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_356 | 3.97Mb
+      - Relay_🇨🇳CN-🇭🇰HK_397 | 5.42Mb
+      - Relay_🇨🇳CN-🇭🇰HK_404 | 6.54Mb
+      - Relay_-🇯🇵JP_16
+      - Relay_🇨🇳CN-🇭🇰HK_337 | 5.31Mb
+      - Relay_🇨🇳CN-🇭🇰HK_359 | 8.14Mb
+      - Relay_🇨🇳CN-🇭🇰HK_333 | 4.40Mb
+      - Relay_🇨🇳CN-🇭🇰HK_330 | 3.64Mb
+      - Relay_🇨🇳CN-🇭🇰HK_364 | 6.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_373 | 6.26Mb
+      - Relay_🇨🇳CN-🇹🇼TW_98
+      - Relay_🇨🇳CN-🇺🇸US_349 | 1.25Mb
+      - Relay_🇨🇳CN-🇭🇰HK_395 | 4.73Mb
+      - Relay_🇨🇳CN-🇭🇰HK_331 | 3.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_394 | 3.21Mb
+      - Relay_🇨🇳CN-🇭🇰HK_334 | 5.98Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 4.60Mb
+      - Relay_🇨🇳CN-🇺🇸US_386 | 0.78Mb
+      - Relay_🇸🇬SG-🇸🇬SG_1199
+      - CN_344 |11.91Mb
+      - US_560 | 5.56Mb
+      - Relay_🇨🇳CN-🏁ZZ_240 |12.68Mb
+      - CA_50 |29.07Mb
+      - TW_526 |28.42Mb
+      - CN_49
+      - CN_68
+      - CN_118 | 2.58Mb
+      - CN_138 | 2.74Mb
+      - CN_70
+      - CN_61
+      - CN_83
+      - CN_157 | 1.89Mb
+      - CN_75
+      - CN_82
+      - CN_55
+      - CN_61 2
+      - CN_72
+      - CN_69
+      - CN_74
+      - CN_125 | 1.35Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港3皖日
-      - 香港3隧道中转
-      - 香港1皖日
-      - 香港5隧道中转
-      - 香港4皖日
-      - 香港5皖日
-      - 香港IEPL游戏专线x15
-      - 香港2皖日
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港3皖日
-      - 香港3隧道中转
-      - 香港1皖日
-      - 香港5隧道中转
-      - 香港4皖日
-      - 香港5皖日
-      - 香港IEPL游戏专线x15
-      - 新加坡2皖日
-      - 新加坡1皖日
-      - 香港2皖日
-      - 新加坡2隧道中转
-      - 新加坡1隧道中转
-      - 美国2皖日
-      - 韩国1隧道中转
-      - 美国1皖日
-      - 韩国2隧道中转
-      - 德国皖日
-      - 日本4隧道中转
+      - Relay_🇨🇳CN-🇭🇰HK_398 | 3.43Mb
+      - Relay_🇨🇳CN-🇭🇰HK_348 | 4.32Mb
+      - Relay_🇨🇳CN-🇭🇰HK_375 |14.39Mb
+      - Relay_🇨🇳CN-🇭🇰HK_363 |11.37Mb
+      - Relay_🇨🇳CN-🇭🇰HK_339 | 8.68Mb
+      - Relay_🇨🇳CN-🇭🇰HK_408 |16.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_356 | 3.97Mb
+      - Relay_🇨🇳CN-🇭🇰HK_397 | 5.42Mb
+      - Relay_🇨🇳CN-🇭🇰HK_404 | 6.54Mb
+      - Relay_-🇯🇵JP_16
+      - Relay_🇨🇳CN-🇭🇰HK_337 | 5.31Mb
+      - Relay_🇨🇳CN-🇭🇰HK_359 | 8.14Mb
+      - Relay_🇨🇳CN-🇭🇰HK_333 | 4.40Mb
+      - Relay_🇨🇳CN-🇭🇰HK_330 | 3.64Mb
+      - Relay_🇨🇳CN-🇭🇰HK_364 | 6.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_373 | 6.26Mb
+      - Relay_🇨🇳CN-🇹🇼TW_98
+      - Relay_🇨🇳CN-🇺🇸US_349 | 1.25Mb
+      - Relay_🇨🇳CN-🇭🇰HK_395 | 4.73Mb
+      - Relay_🇨🇳CN-🇭🇰HK_331 | 3.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_394 | 3.21Mb
+      - Relay_🇨🇳CN-🇭🇰HK_334 | 5.98Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 4.60Mb
+      - Relay_🇨🇳CN-🇺🇸US_386 | 0.78Mb
+      - Relay_🇸🇬SG-🇸🇬SG_1199
+      - CN_344 |11.91Mb
+      - US_560 | 5.56Mb
+      - Relay_🇨🇳CN-🏁ZZ_240 |12.68Mb
+      - CA_50 |29.07Mb
+      - TW_526 |28.42Mb
+      - CN_49
+      - CN_68
+      - CN_118 | 2.58Mb
+      - CN_138 | 2.74Mb
+      - CN_70
+      - CN_61
+      - CN_83
+      - CN_157 | 1.89Mb
+      - CN_75
+      - CN_82
+      - CN_55
+      - CN_61 2
+      - CN_72
+      - CN_69
+      - CN_74
+      - CN_125 | 1.35Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港3皖日
-      - 香港3隧道中转
-      - 香港1皖日
-      - 香港5隧道中转
-      - 香港4皖日
-      - 香港5皖日
-      - 香港IEPL游戏专线x15
-      - 新加坡2皖日
-      - 新加坡1皖日
-      - 香港2皖日
-      - 新加坡2隧道中转
-      - 新加坡1隧道中转
-      - 美国2皖日
-      - 韩国1隧道中转
-      - 美国1皖日
-      - 韩国2隧道中转
-      - 德国皖日
-      - 日本4隧道中转
+      - Relay_🇨🇳CN-🇭🇰HK_398 | 3.43Mb
+      - Relay_🇨🇳CN-🇭🇰HK_348 | 4.32Mb
+      - Relay_🇨🇳CN-🇭🇰HK_375 |14.39Mb
+      - Relay_🇨🇳CN-🇭🇰HK_363 |11.37Mb
+      - Relay_🇨🇳CN-🇭🇰HK_339 | 8.68Mb
+      - Relay_🇨🇳CN-🇭🇰HK_408 |16.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_356 | 3.97Mb
+      - Relay_🇨🇳CN-🇭🇰HK_397 | 5.42Mb
+      - Relay_🇨🇳CN-🇭🇰HK_404 | 6.54Mb
+      - Relay_-🇯🇵JP_16
+      - Relay_🇨🇳CN-🇭🇰HK_337 | 5.31Mb
+      - Relay_🇨🇳CN-🇭🇰HK_359 | 8.14Mb
+      - Relay_🇨🇳CN-🇭🇰HK_333 | 4.40Mb
+      - Relay_🇨🇳CN-🇭🇰HK_330 | 3.64Mb
+      - Relay_🇨🇳CN-🇭🇰HK_364 | 6.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_373 | 6.26Mb
+      - Relay_🇨🇳CN-🇹🇼TW_98
+      - Relay_🇨🇳CN-🇺🇸US_349 | 1.25Mb
+      - Relay_🇨🇳CN-🇭🇰HK_395 | 4.73Mb
+      - Relay_🇨🇳CN-🇭🇰HK_331 | 3.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_394 | 3.21Mb
+      - Relay_🇨🇳CN-🇭🇰HK_334 | 5.98Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 4.60Mb
+      - Relay_🇨🇳CN-🇺🇸US_386 | 0.78Mb
+      - Relay_🇸🇬SG-🇸🇬SG_1199
+      - CN_344 |11.91Mb
+      - US_560 | 5.56Mb
+      - Relay_🇨🇳CN-🏁ZZ_240 |12.68Mb
+      - CA_50 |29.07Mb
+      - TW_526 |28.42Mb
+      - CN_49
+      - CN_68
+      - CN_118 | 2.58Mb
+      - CN_138 | 2.74Mb
+      - CN_70
+      - CN_61
+      - CN_83
+      - CN_157 | 1.89Mb
+      - CN_75
+      - CN_82
+      - CN_55
+      - CN_61 2
+      - CN_72
+      - CN_69
+      - CN_74
+      - CN_125 | 1.35Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港3皖日
-      - 香港3隧道中转
-      - 香港1皖日
-      - 香港5隧道中转
-      - 香港4皖日
-      - 香港5皖日
-      - 香港IEPL游戏专线x15
-      - 新加坡2皖日
-      - 新加坡1皖日
-      - 香港2皖日
-      - 新加坡2隧道中转
-      - 新加坡1隧道中转
-      - 美国2皖日
-      - 韩国1隧道中转
-      - 美国1皖日
-      - 韩国2隧道中转
-      - 德国皖日
-      - 日本4隧道中转
+      - Relay_🇨🇳CN-🇭🇰HK_398 | 3.43Mb
+      - Relay_🇨🇳CN-🇭🇰HK_348 | 4.32Mb
+      - Relay_🇨🇳CN-🇭🇰HK_375 |14.39Mb
+      - Relay_🇨🇳CN-🇭🇰HK_363 |11.37Mb
+      - Relay_🇨🇳CN-🇭🇰HK_339 | 8.68Mb
+      - Relay_🇨🇳CN-🇭🇰HK_408 |16.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_356 | 3.97Mb
+      - Relay_🇨🇳CN-🇭🇰HK_397 | 5.42Mb
+      - Relay_🇨🇳CN-🇭🇰HK_404 | 6.54Mb
+      - Relay_-🇯🇵JP_16
+      - Relay_🇨🇳CN-🇭🇰HK_337 | 5.31Mb
+      - Relay_🇨🇳CN-🇭🇰HK_359 | 8.14Mb
+      - Relay_🇨🇳CN-🇭🇰HK_333 | 4.40Mb
+      - Relay_🇨🇳CN-🇭🇰HK_330 | 3.64Mb
+      - Relay_🇨🇳CN-🇭🇰HK_364 | 6.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_373 | 6.26Mb
+      - Relay_🇨🇳CN-🇹🇼TW_98
+      - Relay_🇨🇳CN-🇺🇸US_349 | 1.25Mb
+      - Relay_🇨🇳CN-🇭🇰HK_395 | 4.73Mb
+      - Relay_🇨🇳CN-🇭🇰HK_331 | 3.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_394 | 3.21Mb
+      - Relay_🇨🇳CN-🇭🇰HK_334 | 5.98Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 4.60Mb
+      - Relay_🇨🇳CN-🇺🇸US_386 | 0.78Mb
+      - Relay_🇸🇬SG-🇸🇬SG_1199
+      - CN_344 |11.91Mb
+      - US_560 | 5.56Mb
+      - Relay_🇨🇳CN-🏁ZZ_240 |12.68Mb
+      - CA_50 |29.07Mb
+      - TW_526 |28.42Mb
+      - CN_49
+      - CN_68
+      - CN_118 | 2.58Mb
+      - CN_138 | 2.74Mb
+      - CN_70
+      - CN_61
+      - CN_83
+      - CN_157 | 1.89Mb
+      - CN_75
+      - CN_82
+      - CN_55
+      - CN_61 2
+      - CN_72
+      - CN_69
+      - CN_74
+      - CN_125 | 1.35Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -228,24 +444,52 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港3皖日
-      - 香港3隧道中转
-      - 香港1皖日
-      - 香港5隧道中转
-      - 香港4皖日
-      - 香港5皖日
-      - 香港IEPL游戏专线x15
-      - 新加坡2皖日
-      - 新加坡1皖日
-      - 香港2皖日
-      - 新加坡2隧道中转
-      - 新加坡1隧道中转
-      - 美国2皖日
-      - 韩国1隧道中转
-      - 美国1皖日
-      - 韩国2隧道中转
-      - 德国皖日
-      - 日本4隧道中转
+      - Relay_🇨🇳CN-🇭🇰HK_398 | 3.43Mb
+      - Relay_🇨🇳CN-🇭🇰HK_348 | 4.32Mb
+      - Relay_🇨🇳CN-🇭🇰HK_375 |14.39Mb
+      - Relay_🇨🇳CN-🇭🇰HK_363 |11.37Mb
+      - Relay_🇨🇳CN-🇭🇰HK_339 | 8.68Mb
+      - Relay_🇨🇳CN-🇭🇰HK_408 |16.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_356 | 3.97Mb
+      - Relay_🇨🇳CN-🇭🇰HK_397 | 5.42Mb
+      - Relay_🇨🇳CN-🇭🇰HK_404 | 6.54Mb
+      - Relay_-🇯🇵JP_16
+      - Relay_🇨🇳CN-🇭🇰HK_337 | 5.31Mb
+      - Relay_🇨🇳CN-🇭🇰HK_359 | 8.14Mb
+      - Relay_🇨🇳CN-🇭🇰HK_333 | 4.40Mb
+      - Relay_🇨🇳CN-🇭🇰HK_330 | 3.64Mb
+      - Relay_🇨🇳CN-🇭🇰HK_364 | 6.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_373 | 6.26Mb
+      - Relay_🇨🇳CN-🇹🇼TW_98
+      - Relay_🇨🇳CN-🇺🇸US_349 | 1.25Mb
+      - Relay_🇨🇳CN-🇭🇰HK_395 | 4.73Mb
+      - Relay_🇨🇳CN-🇭🇰HK_331 | 3.16Mb
+      - Relay_🇨🇳CN-🇭🇰HK_394 | 3.21Mb
+      - Relay_🇨🇳CN-🇭🇰HK_334 | 5.98Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 4.60Mb
+      - Relay_🇨🇳CN-🇺🇸US_386 | 0.78Mb
+      - Relay_🇸🇬SG-🇸🇬SG_1199
+      - CN_344 |11.91Mb
+      - US_560 | 5.56Mb
+      - Relay_🇨🇳CN-🏁ZZ_240 |12.68Mb
+      - CA_50 |29.07Mb
+      - TW_526 |28.42Mb
+      - CN_49
+      - CN_68
+      - CN_118 | 2.58Mb
+      - CN_138 | 2.74Mb
+      - CN_70
+      - CN_61
+      - CN_83
+      - CN_157 | 1.89Mb
+      - CN_75
+      - CN_82
+      - CN_55
+      - CN_61 2
+      - CN_72
+      - CN_69
+      - CN_74
+      - CN_125 | 1.35Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
