@@ -11,6 +11,24 @@ proxies:
   - {name: _GB_英国, server: 165.227.231.254, port: 8080, type: vmess, uuid: 81ed8f96-8c3d-4a71-aae1-b41b45e29721, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 165.227.231.254}, udp: true}
   - {name: _CN_中国, server: 43.154.31.230, port: 25916, type: vmess, uuid: cfd98bac-dc87-4e95-a979-b481aed312ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.31.230]}}, udp: true}
   - {name: _UA_乌克兰, server: 95.85.72.76, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: lt.tbstbstbstbs.com, port: 18814, type: vmess, uuid: c9f239f7-ef34-3a81-80f3-22f7a8dc154e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lt.tbstbstbstbs.com}, udp: true}
+  - {name: SG+15, server: 913hk.tfzhc.top, port: 44316, type: trojan, password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9, sni: 913hk.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国 2, server: 165.227.231.254, port: 8080, type: vmess, uuid: 81ed8f96-8c3d-4a71-aae1-b41b45e29721, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 165.227.231.254}, udp: true}
+  - {name: v2rayfree.eu.org - 美国  41, server: 68.183.129.197, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 68.183.129.197}, udp: true}
+  - {name: _UA_乌克兰 2, server: 95.85.72.76, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 英国伦敦DigitalOcean数据中心 32, server: 165.227.231.254, port: 8080, type: vmess, uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 165.227.231.254}, udp: true}
+  - {name: TW+4, server: 921tw.tfzhc.top, port: 443, type: trojan, password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9, sni: 921tw.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 意大利(TG频道:@kxswa), server: 92.223.79.25, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9, server: 138.197.165.31, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: "%7B%22Host%22:%22138.197.165.31%22%7D"}, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本 2, server: tteessttbbss.dzxi.com.cn, port: 18813, type: vmess, uuid: c9f239f7-ef34-3a81-80f3-22f7a8dc154e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tteessttbbss.dzxi.com.cn}, udp: true}
+  - {name: TW+13, server: 99tw02.tfzhc.top, port: 443, type: trojan, password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9, sni: 99tw02.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰(TG频道:@kxswa), server: 95.85.72.76, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: -美国-68.183.129.197, server: 68.183.129.197, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 68.183.129.197}, udp: true}
+  - {name: 美国(TG频道:@kxswa) 2, server: 208.72.153.94, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 罗马尼亚(TG频道:@kxswa), server: 5.181.25.81, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: DE_64, server: 80.240.22.250, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: free.biggerdogs.eu.org, port: 443, type: trojan, password: dcb86018-4dcf-4de1-b57a-722e4680ab63, sni: free.biggerdogs.eu.org, skip-cert-verify: true, udp: true}
+  - {name: SG+14, server: 921hk.tfzhc.top, port: 443, type: trojan, password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9, sni: 921hk.tfzhc.top, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -23,6 +41,24 @@ proxy-groups:
       - _GB_英国
       - _CN_中国
       - _UA_乌克兰
+      - _CN_中国->🇺🇸_US_美国 2
+      - SG+15
+      - _GB_英国 2
+      - v2rayfree.eu.org - 美国  41
+      - _UA_乌克兰 2
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
+      - TW+4
+      - 意大利(TG频道:@kxswa)
+      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
+      - _CN_中国->🇯🇵_JP_日本 2
+      - TW+13
+      - 乌克兰(TG频道:@kxswa)
+      - -美国-68.183.129.197
+      - 美国(TG频道:@kxswa) 2
+      - 罗马尼亚(TG频道:@kxswa)
+      - DE_64
+      - _US_美国 2
+      - SG+14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -34,6 +70,24 @@ proxy-groups:
       - _GB_英国
       - _CN_中国
       - _UA_乌克兰
+      - _CN_中国->🇺🇸_US_美国 2
+      - SG+15
+      - _GB_英国 2
+      - v2rayfree.eu.org - 美国  41
+      - _UA_乌克兰 2
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
+      - TW+4
+      - 意大利(TG频道:@kxswa)
+      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
+      - _CN_中国->🇯🇵_JP_日本 2
+      - TW+13
+      - 乌克兰(TG频道:@kxswa)
+      - -美国-68.183.129.197
+      - 美国(TG频道:@kxswa) 2
+      - 罗马尼亚(TG频道:@kxswa)
+      - DE_64
+      - _US_美国 2
+      - SG+14
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -46,6 +100,24 @@ proxy-groups:
       - _GB_英国
       - _CN_中国
       - _UA_乌克兰
+      - _CN_中国->🇺🇸_US_美国 2
+      - SG+15
+      - _GB_英国 2
+      - v2rayfree.eu.org - 美国  41
+      - _UA_乌克兰 2
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
+      - TW+4
+      - 意大利(TG频道:@kxswa)
+      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
+      - _CN_中国->🇯🇵_JP_日本 2
+      - TW+13
+      - 乌克兰(TG频道:@kxswa)
+      - -美国-68.183.129.197
+      - 美国(TG频道:@kxswa) 2
+      - 罗马尼亚(TG频道:@kxswa)
+      - DE_64
+      - _US_美国 2
+      - SG+14
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -70,6 +142,24 @@ proxy-groups:
       - _GB_英国
       - _CN_中国
       - _UA_乌克兰
+      - _CN_中国->🇺🇸_US_美国 2
+      - SG+15
+      - _GB_英国 2
+      - v2rayfree.eu.org - 美国  41
+      - _UA_乌克兰 2
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
+      - TW+4
+      - 意大利(TG频道:@kxswa)
+      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
+      - _CN_中国->🇯🇵_JP_日本 2
+      - TW+13
+      - 乌克兰(TG频道:@kxswa)
+      - -美国-68.183.129.197
+      - 美国(TG频道:@kxswa) 2
+      - 罗马尼亚(TG频道:@kxswa)
+      - DE_64
+      - _US_美国 2
+      - SG+14
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -86,6 +176,24 @@ proxy-groups:
       - _GB_英国
       - _CN_中国
       - _UA_乌克兰
+      - _CN_中国->🇺🇸_US_美国 2
+      - SG+15
+      - _GB_英国 2
+      - v2rayfree.eu.org - 美国  41
+      - _UA_乌克兰 2
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
+      - TW+4
+      - 意大利(TG频道:@kxswa)
+      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
+      - _CN_中国->🇯🇵_JP_日本 2
+      - TW+13
+      - 乌克兰(TG频道:@kxswa)
+      - -美国-68.183.129.197
+      - 美国(TG频道:@kxswa) 2
+      - 罗马尼亚(TG频道:@kxswa)
+      - DE_64
+      - _US_美国 2
+      - SG+14
   - name: 📲 电报信息
     type: select
     proxies:
@@ -97,6 +205,24 @@ proxy-groups:
       - _GB_英国
       - _CN_中国
       - _UA_乌克兰
+      - _CN_中国->🇺🇸_US_美国 2
+      - SG+15
+      - _GB_英国 2
+      - v2rayfree.eu.org - 美国  41
+      - _UA_乌克兰 2
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
+      - TW+4
+      - 意大利(TG频道:@kxswa)
+      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
+      - _CN_中国->🇯🇵_JP_日本 2
+      - TW+13
+      - 乌克兰(TG频道:@kxswa)
+      - -美国-68.183.129.197
+      - 美国(TG频道:@kxswa) 2
+      - 罗马尼亚(TG频道:@kxswa)
+      - DE_64
+      - _US_美国 2
+      - SG+14
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -109,6 +235,24 @@ proxy-groups:
       - _GB_英国
       - _CN_中国
       - _UA_乌克兰
+      - _CN_中国->🇺🇸_US_美国 2
+      - SG+15
+      - _GB_英国 2
+      - v2rayfree.eu.org - 美国  41
+      - _UA_乌克兰 2
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
+      - TW+4
+      - 意大利(TG频道:@kxswa)
+      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
+      - _CN_中国->🇯🇵_JP_日本 2
+      - TW+13
+      - 乌克兰(TG频道:@kxswa)
+      - -美国-68.183.129.197
+      - 美国(TG频道:@kxswa) 2
+      - 罗马尼亚(TG频道:@kxswa)
+      - DE_64
+      - _US_美国 2
+      - SG+14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,6 +274,24 @@ proxy-groups:
       - _GB_英国
       - _CN_中国
       - _UA_乌克兰
+      - _CN_中国->🇺🇸_US_美国 2
+      - SG+15
+      - _GB_英国 2
+      - v2rayfree.eu.org - 美国  41
+      - _UA_乌克兰 2
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
+      - TW+4
+      - 意大利(TG频道:@kxswa)
+      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
+      - _CN_中国->🇯🇵_JP_日本 2
+      - TW+13
+      - 乌克兰(TG频道:@kxswa)
+      - -美国-68.183.129.197
+      - 美国(TG频道:@kxswa) 2
+      - 罗马尼亚(TG频道:@kxswa)
+      - DE_64
+      - _US_美国 2
+      - SG+14
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
