@@ -5,119 +5,251 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国, server: free.biggerdogs.eu.org, port: 443, type: trojan, password: dcb86018-4dcf-4de1-b57a-722e4680ab63, sni: free.biggerdogs.eu.org, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: tteessttbbss.dzxi.com.cn, port: 18813, type: vmess, uuid: c9f239f7-ef34-3a81-80f3-22f7a8dc154e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tteessttbbss.dzxi.com.cn}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: lt.tbstbstbstbs.com, port: 18814, type: vmess, uuid: c9f239f7-ef34-3a81-80f3-22f7a8dc154e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lt.tbstbstbstbs.com}, udp: true}
-  - {name: _GB_英国, server: 165.227.231.254, port: 8080, type: vmess, uuid: 81ed8f96-8c3d-4a71-aae1-b41b45e29721, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 165.227.231.254}, udp: true}
-  - {name: _CN_中国, server: 43.154.31.230, port: 25916, type: vmess, uuid: cfd98bac-dc87-4e95-a979-b481aed312ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.31.230]}}, udp: true}
-  - {name: _UA_乌克兰, server: 95.85.72.76, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: lt.tbstbstbstbs.com, port: 18814, type: vmess, uuid: c9f239f7-ef34-3a81-80f3-22f7a8dc154e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lt.tbstbstbstbs.com}, udp: true}
-  - {name: SG+15, server: 913hk.tfzhc.top, port: 44316, type: trojan, password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9, sni: 913hk.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国 2, server: 165.227.231.254, port: 8080, type: vmess, uuid: 81ed8f96-8c3d-4a71-aae1-b41b45e29721, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 165.227.231.254}, udp: true}
-  - {name: v2rayfree.eu.org - 美国  41, server: 68.183.129.197, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 68.183.129.197}, udp: true}
-  - {name: _UA_乌克兰 2, server: 95.85.72.76, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 英国伦敦DigitalOcean数据中心 32, server: 165.227.231.254, port: 8080, type: vmess, uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 165.227.231.254}, udp: true}
-  - {name: TW+4, server: 921tw.tfzhc.top, port: 443, type: trojan, password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9, sni: 921tw.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: 意大利(TG频道:@kxswa), server: 92.223.79.25, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9, server: 138.197.165.31, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: "%7B%22Host%22:%22138.197.165.31%22%7D"}, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 2, server: tteessttbbss.dzxi.com.cn, port: 18813, type: vmess, uuid: c9f239f7-ef34-3a81-80f3-22f7a8dc154e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tteessttbbss.dzxi.com.cn}, udp: true}
-  - {name: TW+13, server: 99tw02.tfzhc.top, port: 443, type: trojan, password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9, sni: 99tw02.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: 乌克兰(TG频道:@kxswa), server: 95.85.72.76, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -美国-68.183.129.197, server: 68.183.129.197, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 68.183.129.197}, udp: true}
-  - {name: 美国(TG频道:@kxswa) 2, server: 208.72.153.94, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 罗马尼亚(TG频道:@kxswa), server: 5.181.25.81, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: DE_64, server: 80.240.22.250, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 2, server: free.biggerdogs.eu.org, port: 443, type: trojan, password: dcb86018-4dcf-4de1-b57a-722e4680ab63, sni: free.biggerdogs.eu.org, skip-cert-verify: true, udp: true}
-  - {name: SG+14, server: 921hk.tfzhc.top, port: 443, type: trojan, password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9, sni: 921hk.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 隧道|NF|新加坡09, server: cjl-moble.gatknqh.cn, port: 40117, type: vmess, uuid: b03b5e05-5653-3b9b-a272-7ba06c7613a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|05|奈飞三网优化_2, server: hnct-a.999880.xyz, port: 33240, type: trojan, password: 37e4a294-07ee-4f27-bb6a-762b855201e3, sni: hnct-a.999880.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|02|奈飞DO三网优化_2, server: hnct-a.999880.xyz, port: 38373, type: trojan, password: 37e4a294-07ee-4f27-bb6a-762b855201e3, sni: hnct-a.999880.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|高速|01|LIN三网优化_2, server: hnct-a.999880.xyz, port: 38681, type: trojan, password: 37e4a294-07ee-4f27-bb6a-762b855201e3, sni: hnct-a.999880.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|03|LIN三网优化_2, server: hnct-a.999880.xyz, port: 26717, type: trojan, password: 37e4a294-07ee-4f27-bb6a-762b855201e3, sni: hnct-a.999880.xyz, skip-cert-verify: true, udp: true}
+  - {name: 隧道|NF|新加坡06, server: cjl-moble.gatknqh.cn, port: 40114, type: vmess, uuid: b03b5e05-5653-3b9b-a272-7ba06c7613a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[Vip1]日本05[1.0|移动]_1", server: fly1.fastestcloud.xyz, port: 30006, type: vmess, uuid: d65f0674-c53d-41d5-819f-7dca9e346319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: fly1.fastestcloud.xyz}, udp: true}
+  - {name: "[Vip1]香港05[1.0|移动|流媒体解锁]_2", server: fly1.fastestcloud.xyz, port: 40003, type: vmess, uuid: e9a2356c-7fde-4f48-8bdd-77258e08d7fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: fly1.fastestcloud.xyz}, udp: true}
+  - {name: 隧道|NF|香港03, server: cjl-moble.gatknqh.cn, port: 40107, type: vmess, uuid: b03b5e05-5653-3b9b-a272-7ba06c7613a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国|01|AZ中转_1, server: js.ens-relay.network, port: 58917, type: trojan, password: 0dfd44d2-f72e-4e77-8647-5ea200dcce01, sni: js.ens-relay.network, skip-cert-verify: true, udp: true}
+  - {name: "[联通]日本·F1|03", server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30021, type: vmess, uuid: 39d74df4-f86d-4f8d-b891-3a054bd136e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com}, udp: true}
+  - {name: 日本|01|LIN三网优化_2, server: hnct-a.999880.xyz, port: 12529, type: trojan, password: 37e4a294-07ee-4f27-bb6a-762b855201e3, sni: hnct-a.999880.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|06AZ三网优化2_1, server: hn.suyun.live, port: 34272, type: trojan, password: 0dfd44d2-f72e-4e77-8647-5ea200dcce01, sni: hn.suyun.live, skip-cert-verify: true, udp: true}
+  - {name: "[Vip1]香港05[1.0|移动|流媒体解锁]_1", server: fly1.fastestcloud.xyz, port: 40003, type: vmess, uuid: d65f0674-c53d-41d5-819f-7dca9e346319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: fly1.fastestcloud.xyz}, udp: true}
+  - {name: 隧道|NF|日本01, server: cjl-moble.gatknqh.cn, port: 40118, type: vmess, uuid: b03b5e05-5653-3b9b-a272-7ba06c7613a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 隧道|NF|台湾02, server: cjl-moble.gatknqh.cn, port: 40102, type: vmess, uuid: b03b5e05-5653-3b9b-a272-7ba06c7613a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港|06AZ三网优化_2, server: hn.suyun.live, port: 15726, type: trojan, password: 37e4a294-07ee-4f27-bb6a-762b855201e3, sni: hn.suyun.live, skip-cert-verify: true, udp: true}
+  - {name: 隧道|NF|新加坡01, server: cjl-moble.gatknqh.cn, port: 40109, type: vmess, uuid: b03b5e05-5653-3b9b-a272-7ba06c7613a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[Vip1]香港09[1.0|移动|流媒体解锁]_1", server: fly1.fastestcloud.xyz, port: 40005, type: vmess, uuid: d65f0674-c53d-41d5-819f-7dca9e346319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fly1.fastestcloud.xyz}, udp: true}
+  - {name: 隧道|NF|新加坡07, server: cjl-moble.gatknqh.cn, port: 40115, type: vmess, uuid: b03b5e05-5653-3b9b-a272-7ba06c7613a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国|01|AZ中转_2, server: js.ens-relay.network, port: 58917, type: trojan, password: 37e4a294-07ee-4f27-bb6a-762b855201e3, sni: js.ens-relay.network, skip-cert-verify: true, udp: true}
+  - {name: "️+[+v1+]+台湾原生+|+02", server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30003, type: trojan, password: 4ca9dab0-1795-4c56-926f-04c15ab4abb9, sni: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, skip-cert-verify: true, udp: true}
+  - {name: "[Vip1]日本05[1.0|移动]_2", server: fly1.fastestcloud.xyz, port: 30006, type: vmess, uuid: e9a2356c-7fde-4f48-8bdd-77258e08d7fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: fly1.fastestcloud.xyz}, udp: true}
+  - {name: 日本|01|LIN三网优化_1, server: hnct-a.999880.xyz, port: 12529, type: trojan, password: 0dfd44d2-f72e-4e77-8647-5ea200dcce01, sni: hnct-a.999880.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|03|奈飞OC电信优化2_1, server: hnct-a.999880.xyz, port: 14851, type: trojan, password: 0dfd44d2-f72e-4e77-8647-5ea200dcce01, sni: hnct-a.999880.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|05|奈飞三网优化_1, server: hnct-a.999880.xyz, port: 33240, type: trojan, password: 0dfd44d2-f72e-4e77-8647-5ea200dcce01, sni: hnct-a.999880.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[Vip1]香港09[1.0|移动|流媒体解锁]_2", server: fly1.fastestcloud.xyz, port: 40005, type: vmess, uuid: e9a2356c-7fde-4f48-8bdd-77258e08d7fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fly1.fastestcloud.xyz}, udp: true}
+  - {name: 香港|13|奈飞BGP三网优化3_2, server: hn.suyun.live, port: 37732, type: trojan, password: 37e4a294-07ee-4f27-bb6a-762b855201e3, sni: hn.suyun.live, skip-cert-verify: true, udp: true}
+  - {name: 隧道|NF|日本03, server: cjl-moble.gatknqh.cn, port: 40120, type: vmess, uuid: b03b5e05-5653-3b9b-a272-7ba06c7613a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[联通]日本·F1|02", server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30044, type: vmess, uuid: 325b92e4-2fbd-4c61-9ed9-be4b198cf31a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com}, udp: true}
+  - {name: 香港|06AZ三网优化_1, server: hn.suyun.live, port: 15726, type: trojan, password: 0dfd44d2-f72e-4e77-8647-5ea200dcce01, sni: hn.suyun.live, skip-cert-verify: true, udp: true}
+  - {name: "[联通]日本·F1|01", server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30009, type: vmess, uuid: 39d74df4-f86d-4f8d-b891-3a054bd136e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com}, udp: true}
+  - {name: 隧道|NF|新加坡02, server: cjl-moble.gatknqh.cn, port: 40110, type: vmess, uuid: b03b5e05-5653-3b9b-a272-7ba06c7613a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|02|奈飞DO三网优化_1, server: hnct-a.999880.xyz, port: 38373, type: trojan, password: 0dfd44d2-f72e-4e77-8647-5ea200dcce01, sni: hnct-a.999880.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[联通]日本·F1|03 2", server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30021, type: vmess, uuid: abdcbf6b-9789-4d16-9b1c-5cd21e9ca614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com}, udp: true}
+  - {name: "[Vip1]日本13[1.0|移动|流媒体解锁]_2", server: fly1.fastestcloud.xyz, port: 30017, type: vmess, uuid: e9a2356c-7fde-4f48-8bdd-77258e08d7fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: fly1.fastestcloud.xyz}, udp: true}
+  - {name: 香港|06AZ直连_2, server: hkmax06.170203.xyz, port: 10000, type: trojan, password: 37e4a294-07ee-4f27-bb6a-762b855201e3, sni: hkmax06.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|06AZ直连_1, server: hkmax06.170203.xyz, port: 10000, type: trojan, password: 0dfd44d2-f72e-4e77-8647-5ea200dcce01, sni: hkmax06.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[Vip1]美国01[1.0|移动|流媒体解锁]_1", server: fly1.fastestcloud.xyz, port: 30080, type: vmess, uuid: d65f0674-c53d-41d5-819f-7dca9e346319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: fly1.fastestcloud.xyz}, udp: true}
+  - {name: "[联通]日本·F1|02 2", server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30044, type: vmess, uuid: 4ca9dab0-1795-4c56-926f-04c15ab4abb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com}, udp: true}
+  - {name: 香港|23|奈飞BGP三网优化3_2, server: hnct-a.999880.xyz, port: 12178, type: trojan, password: 0dfd44d2-f72e-4e77-8647-5ea200dcce01, sni: hnct-a.999880.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国|01奈飞OC_1, server: 131.186.28.65, port: 31025, type: trojan, password: 0dfd44d2-f72e-4e77-8647-5ea200dcce01, skip-cert-verify: true, udp: true}
+  - {name: "[Vip1]美国05[1.0|移动|流媒体解锁]_1", server: fly1.fastestcloud.xyz, port: 30081, type: vmess, uuid: e9a2356c-7fde-4f48-8bdd-77258e08d7fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: fly1.fastestcloud.xyz}, udp: true}
+  - {name: 日本|03|LIN三网优化_1, server: hnct-a.999880.xyz, port: 26717, type: trojan, password: 0dfd44d2-f72e-4e77-8647-5ea200dcce01, sni: hnct-a.999880.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|13|奈飞BGP三网优化3_1, server: hn.suyun.live, port: 37732, type: trojan, password: 0dfd44d2-f72e-4e77-8647-5ea200dcce01, sni: hn.suyun.live, skip-cert-verify: true, udp: true}
+  - {name: "[Vip1]美国01[1.0|移动|流媒体解锁]_2", server: fly1.fastestcloud.xyz, port: 30080, type: vmess, uuid: e9a2356c-7fde-4f48-8bdd-77258e08d7fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: fly1.fastestcloud.xyz}, udp: true}
+  - {name: "[Vip1]美国05[1.0|移动|流媒体解锁]_2", server: fly1.fastestcloud.xyz, port: 30081, type: vmess, uuid: d65f0674-c53d-41d5-819f-7dca9e346319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: fly1.fastestcloud.xyz}, udp: true}
+  - {name: "[联通]日本·F1|01 2", server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30009, type: vmess, uuid: abdcbf6b-9789-4d16-9b1c-5cd21e9ca614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com}, udp: true}
+  - {name: "+[+联通+]+韩国+·+E1+|+01", server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30056, type: trojan, password: abdcbf6b-9789-4d16-9b1c-5cd21e9ca614, sni: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, skip-cert-verify: true, udp: true}
+  - {name: "️[v1]美国原生|01", server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30043, type: vmess, uuid: 325b92e4-2fbd-4c61-9ed9-be4b198cf31a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com}, udp: true}
+  - {name: 隧道|NF|韩国01, server: cjl-moble.gatknqh.cn, port: 40122, type: vmess, uuid: b03b5e05-5653-3b9b-a272-7ba06c7613a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港|02|SS三网优化_2, server: js.ens-relay.network, port: 59238, type: ss, cipher: chacha20-ietf-poly1305, password: 37e4a294-07ee-4f27-bb6a-762b855201e3, udp: true}
+  - {name: 隧道|NF|新加坡08, server: cjl-moble.gatknqh.cn, port: 40116, type: vmess, uuid: b03b5e05-5653-3b9b-a272-7ba06c7613a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本专线|tg频道:@ripaojiedian, server: jp05.nachoneko.shop, port: 4138, type: ssr, cipher: rc4-md5, password: WGVOni, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "️+[+v1+]+台湾原生+|+01", server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30002, type: trojan, password: 325b92e4-2fbd-4c61-9ed9-be4b198cf31a, sni: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, skip-cert-verify: true, udp: true}
+  - {name: "台3[直连]-流媒体NF", server: tw3.594888.xyz, port: 25551, type: vmess, uuid: 3d299d2d-673b-3af8-98a5-2bb1126c52fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tw3.594888.xyz}, udp: true}
+  - {name: 香港|02|SS三网优化_1, server: js.ens-relay.network, port: 59238, type: ss, cipher: chacha20-ietf-poly1305, password: 0dfd44d2-f72e-4e77-8647-5ea200dcce01, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国
-      - _GB_英国
-      - _CN_中国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国 2
-      - SG+15
-      - _GB_英国 2
-      - v2rayfree.eu.org - 美国  41
-      - _UA_乌克兰 2
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
-      - TW+4
-      - 意大利(TG频道:@kxswa)
-      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
-      - _CN_中国->🇯🇵_JP_日本 2
-      - TW+13
-      - 乌克兰(TG频道:@kxswa)
-      - -美国-68.183.129.197
-      - 美国(TG频道:@kxswa) 2
-      - 罗马尼亚(TG频道:@kxswa)
-      - DE_64
-      - _US_美国 2
-      - SG+14
+      - 隧道|NF|新加坡09
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|02|奈飞DO三网优化_2
+      - 日本|高速|01|LIN三网优化_2
+      - 日本|03|LIN三网优化_2
+      - 隧道|NF|新加坡06
+      - "[Vip1]日本05[1.0|移动]_1"
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_2"
+      - 隧道|NF|香港03
+      - 韩国|01|AZ中转_1
+      - "[联通]日本·F1|03"
+      - 日本|01|LIN三网优化_2
+      - 香港|06AZ三网优化2_1
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|日本01
+      - 隧道|NF|台湾02
+      - 香港|06AZ三网优化_2
+      - 隧道|NF|新加坡01
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|新加坡07
+      - 韩国|01|AZ中转_2
+      - ️+[+v1+]+台湾原生+|+02
+      - "[Vip1]日本05[1.0|移动]_2"
+      - 日本|01|LIN三网优化_1
+      - 新加坡|03|奈飞OC电信优化2_1
+      - 新加坡|05|奈飞三网优化_1
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_2"
+      - 香港|13|奈飞BGP三网优化3_2
+      - 隧道|NF|日本03
+      - "[联通]日本·F1|02"
+      - 香港|06AZ三网优化_1
+      - "[联通]日本·F1|01"
+      - 隧道|NF|新加坡02
+      - 新加坡|02|奈飞DO三网优化_1
+      - "[联通]日本·F1|03 2"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_2"
+      - 香港|06AZ直连_2
+      - 香港|06AZ直连_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_1"
+      - "[联通]日本·F1|02 2"
+      - 香港|23|奈飞BGP三网优化3_2
+      - 韩国|01奈飞OC_1
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_1"
+      - 日本|03|LIN三网优化_1
+      - 香港|13|奈飞BGP三网优化3_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_2"
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_2"
+      - "[联通]日本·F1|01 2"
+      - +[+联通+]+韩国+·+E1+|+01
+      - ️[v1]美国原生|01
+      - 隧道|NF|韩国01
+      - 香港|02|SS三网优化_2
+      - 隧道|NF|新加坡08
+      - 日本专线|tg频道:@ripaojiedian
+      - ️+[+v1+]+台湾原生+|+01
+      - 台3[直连]-流媒体NF
+      - 香港|02|SS三网优化_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国
-      - _GB_英国
-      - _CN_中国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国 2
-      - SG+15
-      - _GB_英国 2
-      - v2rayfree.eu.org - 美国  41
-      - _UA_乌克兰 2
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
-      - TW+4
-      - 意大利(TG频道:@kxswa)
-      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
-      - _CN_中国->🇯🇵_JP_日本 2
-      - TW+13
-      - 乌克兰(TG频道:@kxswa)
-      - -美国-68.183.129.197
-      - 美国(TG频道:@kxswa) 2
-      - 罗马尼亚(TG频道:@kxswa)
-      - DE_64
-      - _US_美国 2
-      - SG+14
+      - 隧道|NF|新加坡09
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|02|奈飞DO三网优化_2
+      - 日本|高速|01|LIN三网优化_2
+      - 日本|03|LIN三网优化_2
+      - 隧道|NF|新加坡06
+      - "[Vip1]日本05[1.0|移动]_1"
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_2"
+      - 隧道|NF|香港03
+      - 韩国|01|AZ中转_1
+      - "[联通]日本·F1|03"
+      - 日本|01|LIN三网优化_2
+      - 香港|06AZ三网优化2_1
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|日本01
+      - 隧道|NF|台湾02
+      - 香港|06AZ三网优化_2
+      - 隧道|NF|新加坡01
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|新加坡07
+      - 韩国|01|AZ中转_2
+      - ️+[+v1+]+台湾原生+|+02
+      - "[Vip1]日本05[1.0|移动]_2"
+      - 日本|01|LIN三网优化_1
+      - 新加坡|03|奈飞OC电信优化2_1
+      - 新加坡|05|奈飞三网优化_1
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_2"
+      - 香港|13|奈飞BGP三网优化3_2
+      - 隧道|NF|日本03
+      - "[联通]日本·F1|02"
+      - 香港|06AZ三网优化_1
+      - "[联通]日本·F1|01"
+      - 隧道|NF|新加坡02
+      - 新加坡|02|奈飞DO三网优化_1
+      - "[联通]日本·F1|03 2"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_2"
+      - 香港|06AZ直连_2
+      - 香港|06AZ直连_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_1"
+      - "[联通]日本·F1|02 2"
+      - 香港|23|奈飞BGP三网优化3_2
+      - 韩国|01奈飞OC_1
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_1"
+      - 日本|03|LIN三网优化_1
+      - 香港|13|奈飞BGP三网优化3_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_2"
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_2"
+      - "[联通]日本·F1|01 2"
+      - +[+联通+]+韩国+·+E1+|+01
+      - ️[v1]美国原生|01
+      - 隧道|NF|韩国01
+      - 香港|02|SS三网优化_2
+      - 隧道|NF|新加坡08
+      - 日本专线|tg频道:@ripaojiedian
+      - ️+[+v1+]+台湾原生+|+01
+      - 台3[直连]-流媒体NF
+      - 香港|02|SS三网优化_1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国
-      - _GB_英国
-      - _CN_中国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国 2
-      - SG+15
-      - _GB_英国 2
-      - v2rayfree.eu.org - 美国  41
-      - _UA_乌克兰 2
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
-      - TW+4
-      - 意大利(TG频道:@kxswa)
-      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
-      - _CN_中国->🇯🇵_JP_日本 2
-      - TW+13
-      - 乌克兰(TG频道:@kxswa)
-      - -美国-68.183.129.197
-      - 美国(TG频道:@kxswa) 2
-      - 罗马尼亚(TG频道:@kxswa)
-      - DE_64
-      - _US_美国 2
-      - SG+14
+      - 隧道|NF|新加坡09
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|02|奈飞DO三网优化_2
+      - 日本|高速|01|LIN三网优化_2
+      - 日本|03|LIN三网优化_2
+      - 隧道|NF|新加坡06
+      - "[Vip1]日本05[1.0|移动]_1"
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_2"
+      - 隧道|NF|香港03
+      - 韩国|01|AZ中转_1
+      - "[联通]日本·F1|03"
+      - 日本|01|LIN三网优化_2
+      - 香港|06AZ三网优化2_1
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|日本01
+      - 隧道|NF|台湾02
+      - 香港|06AZ三网优化_2
+      - 隧道|NF|新加坡01
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|新加坡07
+      - 韩国|01|AZ中转_2
+      - ️+[+v1+]+台湾原生+|+02
+      - "[Vip1]日本05[1.0|移动]_2"
+      - 日本|01|LIN三网优化_1
+      - 新加坡|03|奈飞OC电信优化2_1
+      - 新加坡|05|奈飞三网优化_1
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_2"
+      - 香港|13|奈飞BGP三网优化3_2
+      - 隧道|NF|日本03
+      - "[联通]日本·F1|02"
+      - 香港|06AZ三网优化_1
+      - "[联通]日本·F1|01"
+      - 隧道|NF|新加坡02
+      - 新加坡|02|奈飞DO三网优化_1
+      - "[联通]日本·F1|03 2"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_2"
+      - 香港|06AZ直连_2
+      - 香港|06AZ直连_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_1"
+      - "[联通]日本·F1|02 2"
+      - 香港|23|奈飞BGP三网优化3_2
+      - 韩国|01奈飞OC_1
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_1"
+      - 日本|03|LIN三网优化_1
+      - 香港|13|奈飞BGP三网优化3_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_2"
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_2"
+      - "[联通]日本·F1|01 2"
+      - +[+联通+]+韩国+·+E1+|+01
+      - ️[v1]美国原生|01
+      - 隧道|NF|韩国01
+      - 香港|02|SS三网优化_2
+      - 隧道|NF|新加坡08
+      - 日本专线|tg频道:@ripaojiedian
+      - ️+[+v1+]+台湾原生+|+01
+      - 台3[直连]-流媒体NF
+      - 香港|02|SS三网优化_1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,123 +268,274 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国
-      - _GB_英国
-      - _CN_中国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国 2
-      - SG+15
-      - _GB_英国 2
-      - v2rayfree.eu.org - 美国  41
-      - _UA_乌克兰 2
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
-      - TW+4
-      - 意大利(TG频道:@kxswa)
-      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
-      - _CN_中国->🇯🇵_JP_日本 2
-      - TW+13
-      - 乌克兰(TG频道:@kxswa)
-      - -美国-68.183.129.197
-      - 美国(TG频道:@kxswa) 2
-      - 罗马尼亚(TG频道:@kxswa)
-      - DE_64
-      - _US_美国 2
-      - SG+14
+      - 隧道|NF|新加坡09
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|02|奈飞DO三网优化_2
+      - 日本|高速|01|LIN三网优化_2
+      - 日本|03|LIN三网优化_2
+      - 隧道|NF|新加坡06
+      - "[Vip1]日本05[1.0|移动]_1"
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_2"
+      - 隧道|NF|香港03
+      - 韩国|01|AZ中转_1
+      - "[联通]日本·F1|03"
+      - 日本|01|LIN三网优化_2
+      - 香港|06AZ三网优化2_1
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|日本01
+      - 隧道|NF|台湾02
+      - 香港|06AZ三网优化_2
+      - 隧道|NF|新加坡01
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|新加坡07
+      - 韩国|01|AZ中转_2
+      - ️+[+v1+]+台湾原生+|+02
+      - "[Vip1]日本05[1.0|移动]_2"
+      - 日本|01|LIN三网优化_1
+      - 新加坡|03|奈飞OC电信优化2_1
+      - 新加坡|05|奈飞三网优化_1
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_2"
+      - 香港|13|奈飞BGP三网优化3_2
+      - 隧道|NF|日本03
+      - "[联通]日本·F1|02"
+      - 香港|06AZ三网优化_1
+      - "[联通]日本·F1|01"
+      - 隧道|NF|新加坡02
+      - 新加坡|02|奈飞DO三网优化_1
+      - "[联通]日本·F1|03 2"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_2"
+      - 香港|06AZ直连_2
+      - 香港|06AZ直连_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_1"
+      - "[联通]日本·F1|02 2"
+      - 香港|23|奈飞BGP三网优化3_2
+      - 韩国|01奈飞OC_1
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_1"
+      - 日本|03|LIN三网优化_1
+      - 香港|13|奈飞BGP三网优化3_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_2"
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_2"
+      - "[联通]日本·F1|01 2"
+      - +[+联通+]+韩国+·+E1+|+01
+      - ️[v1]美国原生|01
+      - 隧道|NF|韩国01
+      - 香港|02|SS三网优化_2
+      - 隧道|NF|新加坡08
+      - 日本专线|tg频道:@ripaojiedian
+      - ️+[+v1+]+台湾原生+|+01
+      - 台3[直连]-流媒体NF
+      - 香港|02|SS三网优化_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_2"
+      - 隧道|NF|香港03
+      - 香港|06AZ三网优化2_1
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|台湾02
+      - 香港|06AZ三网优化_2
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_1"
+      - ️+[+v1+]+台湾原生+|+02
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_2"
+      - 香港|13|奈飞BGP三网优化3_2
+      - 香港|06AZ三网优化_1
+      - 香港|06AZ直连_2
+      - 香港|06AZ直连_1
+      - 香港|23|奈飞BGP三网优化3_2
+      - 香港|13|奈飞BGP三网优化3_1
+      - 香港|02|SS三网优化_2
+      - ️+[+v1+]+台湾原生+|+01
+      - 台3[直连]-流媒体NF
+      - 香港|02|SS三网优化_1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _US_美国
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国
-      - _GB_英国
-      - _CN_中国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国 2
-      - SG+15
-      - _GB_英国 2
-      - v2rayfree.eu.org - 美国  41
-      - _UA_乌克兰 2
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
-      - TW+4
-      - 意大利(TG频道:@kxswa)
-      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
-      - _CN_中国->🇯🇵_JP_日本 2
-      - TW+13
-      - 乌克兰(TG频道:@kxswa)
-      - -美国-68.183.129.197
-      - 美国(TG频道:@kxswa) 2
-      - 罗马尼亚(TG频道:@kxswa)
-      - DE_64
-      - _US_美国 2
-      - SG+14
+      - 隧道|NF|新加坡09
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|02|奈飞DO三网优化_2
+      - 日本|高速|01|LIN三网优化_2
+      - 日本|03|LIN三网优化_2
+      - 隧道|NF|新加坡06
+      - "[Vip1]日本05[1.0|移动]_1"
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_2"
+      - 隧道|NF|香港03
+      - 韩国|01|AZ中转_1
+      - "[联通]日本·F1|03"
+      - 日本|01|LIN三网优化_2
+      - 香港|06AZ三网优化2_1
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|日本01
+      - 隧道|NF|台湾02
+      - 香港|06AZ三网优化_2
+      - 隧道|NF|新加坡01
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|新加坡07
+      - 韩国|01|AZ中转_2
+      - ️+[+v1+]+台湾原生+|+02
+      - "[Vip1]日本05[1.0|移动]_2"
+      - 日本|01|LIN三网优化_1
+      - 新加坡|03|奈飞OC电信优化2_1
+      - 新加坡|05|奈飞三网优化_1
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_2"
+      - 香港|13|奈飞BGP三网优化3_2
+      - 隧道|NF|日本03
+      - "[联通]日本·F1|02"
+      - 香港|06AZ三网优化_1
+      - "[联通]日本·F1|01"
+      - 隧道|NF|新加坡02
+      - 新加坡|02|奈飞DO三网优化_1
+      - "[联通]日本·F1|03 2"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_2"
+      - 香港|06AZ直连_2
+      - 香港|06AZ直连_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_1"
+      - "[联通]日本·F1|02 2"
+      - 香港|23|奈飞BGP三网优化3_2
+      - 韩国|01奈飞OC_1
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_1"
+      - 日本|03|LIN三网优化_1
+      - 香港|13|奈飞BGP三网优化3_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_2"
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_2"
+      - "[联通]日本·F1|01 2"
+      - +[+联通+]+韩国+·+E1+|+01
+      - ️[v1]美国原生|01
+      - 隧道|NF|韩国01
+      - 香港|02|SS三网优化_2
+      - 隧道|NF|新加坡08
+      - 日本专线|tg频道:@ripaojiedian
+      - ️+[+v1+]+台湾原生+|+01
+      - 台3[直连]-流媒体NF
+      - 香港|02|SS三网优化_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _US_美国
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国
-      - _GB_英国
-      - _CN_中国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国 2
-      - SG+15
-      - _GB_英国 2
-      - v2rayfree.eu.org - 美国  41
-      - _UA_乌克兰 2
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
-      - TW+4
-      - 意大利(TG频道:@kxswa)
-      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
-      - _CN_中国->🇯🇵_JP_日本 2
-      - TW+13
-      - 乌克兰(TG频道:@kxswa)
-      - -美国-68.183.129.197
-      - 美国(TG频道:@kxswa) 2
-      - 罗马尼亚(TG频道:@kxswa)
-      - DE_64
-      - _US_美国 2
-      - SG+14
+      - 隧道|NF|新加坡09
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|02|奈飞DO三网优化_2
+      - 日本|高速|01|LIN三网优化_2
+      - 日本|03|LIN三网优化_2
+      - 隧道|NF|新加坡06
+      - "[Vip1]日本05[1.0|移动]_1"
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_2"
+      - 隧道|NF|香港03
+      - 韩国|01|AZ中转_1
+      - "[联通]日本·F1|03"
+      - 日本|01|LIN三网优化_2
+      - 香港|06AZ三网优化2_1
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|日本01
+      - 隧道|NF|台湾02
+      - 香港|06AZ三网优化_2
+      - 隧道|NF|新加坡01
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|新加坡07
+      - 韩国|01|AZ中转_2
+      - ️+[+v1+]+台湾原生+|+02
+      - "[Vip1]日本05[1.0|移动]_2"
+      - 日本|01|LIN三网优化_1
+      - 新加坡|03|奈飞OC电信优化2_1
+      - 新加坡|05|奈飞三网优化_1
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_2"
+      - 香港|13|奈飞BGP三网优化3_2
+      - 隧道|NF|日本03
+      - "[联通]日本·F1|02"
+      - 香港|06AZ三网优化_1
+      - "[联通]日本·F1|01"
+      - 隧道|NF|新加坡02
+      - 新加坡|02|奈飞DO三网优化_1
+      - "[联通]日本·F1|03 2"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_2"
+      - 香港|06AZ直连_2
+      - 香港|06AZ直连_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_1"
+      - "[联通]日本·F1|02 2"
+      - 香港|23|奈飞BGP三网优化3_2
+      - 韩国|01奈飞OC_1
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_1"
+      - 日本|03|LIN三网优化_1
+      - 香港|13|奈飞BGP三网优化3_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_2"
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_2"
+      - "[联通]日本·F1|01 2"
+      - +[+联通+]+韩国+·+E1+|+01
+      - ️[v1]美国原生|01
+      - 隧道|NF|韩国01
+      - 香港|02|SS三网优化_2
+      - 隧道|NF|新加坡08
+      - 日本专线|tg频道:@ripaojiedian
+      - ️+[+v1+]+台湾原生+|+01
+      - 台3[直连]-流媒体NF
+      - 香港|02|SS三网优化_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国
-      - _GB_英国
-      - _CN_中国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国 2
-      - SG+15
-      - _GB_英国 2
-      - v2rayfree.eu.org - 美国  41
-      - _UA_乌克兰 2
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
-      - TW+4
-      - 意大利(TG频道:@kxswa)
-      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
-      - _CN_中国->🇯🇵_JP_日本 2
-      - TW+13
-      - 乌克兰(TG频道:@kxswa)
-      - -美国-68.183.129.197
-      - 美国(TG频道:@kxswa) 2
-      - 罗马尼亚(TG频道:@kxswa)
-      - DE_64
-      - _US_美国 2
-      - SG+14
+      - 隧道|NF|新加坡09
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|02|奈飞DO三网优化_2
+      - 日本|高速|01|LIN三网优化_2
+      - 日本|03|LIN三网优化_2
+      - 隧道|NF|新加坡06
+      - "[Vip1]日本05[1.0|移动]_1"
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_2"
+      - 隧道|NF|香港03
+      - 韩国|01|AZ中转_1
+      - "[联通]日本·F1|03"
+      - 日本|01|LIN三网优化_2
+      - 香港|06AZ三网优化2_1
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|日本01
+      - 隧道|NF|台湾02
+      - 香港|06AZ三网优化_2
+      - 隧道|NF|新加坡01
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|新加坡07
+      - 韩国|01|AZ中转_2
+      - ️+[+v1+]+台湾原生+|+02
+      - "[Vip1]日本05[1.0|移动]_2"
+      - 日本|01|LIN三网优化_1
+      - 新加坡|03|奈飞OC电信优化2_1
+      - 新加坡|05|奈飞三网优化_1
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_2"
+      - 香港|13|奈飞BGP三网优化3_2
+      - 隧道|NF|日本03
+      - "[联通]日本·F1|02"
+      - 香港|06AZ三网优化_1
+      - "[联通]日本·F1|01"
+      - 隧道|NF|新加坡02
+      - 新加坡|02|奈飞DO三网优化_1
+      - "[联通]日本·F1|03 2"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_2"
+      - 香港|06AZ直连_2
+      - 香港|06AZ直连_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_1"
+      - "[联通]日本·F1|02 2"
+      - 香港|23|奈飞BGP三网优化3_2
+      - 韩国|01奈飞OC_1
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_1"
+      - 日本|03|LIN三网优化_1
+      - 香港|13|奈飞BGP三网优化3_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_2"
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_2"
+      - "[联通]日本·F1|01 2"
+      - +[+联通+]+韩国+·+E1+|+01
+      - ️[v1]美国原生|01
+      - 隧道|NF|韩国01
+      - 香港|02|SS三网优化_2
+      - 隧道|NF|新加坡08
+      - 日本专线|tg频道:@ripaojiedian
+      - ️+[+v1+]+台湾原生+|+01
+      - 台3[直连]-流媒体NF
+      - 香港|02|SS三网优化_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -268,30 +551,63 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国
-      - _GB_英国
-      - _CN_中国
-      - _UA_乌克兰
-      - _CN_中国->🇺🇸_US_美国 2
-      - SG+15
-      - _GB_英国 2
-      - v2rayfree.eu.org - 美国  41
-      - _UA_乌克兰 2
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 32
-      - TW+4
-      - 意大利(TG频道:@kxswa)
-      - v2rayfree.eu.org - 美国纽约市DigitalOcean云公司 9
-      - _CN_中国->🇯🇵_JP_日本 2
-      - TW+13
-      - 乌克兰(TG频道:@kxswa)
-      - -美国-68.183.129.197
-      - 美国(TG频道:@kxswa) 2
-      - 罗马尼亚(TG频道:@kxswa)
-      - DE_64
-      - _US_美国 2
-      - SG+14
+      - 隧道|NF|新加坡09
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|02|奈飞DO三网优化_2
+      - 日本|高速|01|LIN三网优化_2
+      - 日本|03|LIN三网优化_2
+      - 隧道|NF|新加坡06
+      - "[Vip1]日本05[1.0|移动]_1"
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_2"
+      - 隧道|NF|香港03
+      - 韩国|01|AZ中转_1
+      - "[联通]日本·F1|03"
+      - 日本|01|LIN三网优化_2
+      - 香港|06AZ三网优化2_1
+      - "[Vip1]香港05[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|日本01
+      - 隧道|NF|台湾02
+      - 香港|06AZ三网优化_2
+      - 隧道|NF|新加坡01
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_1"
+      - 隧道|NF|新加坡07
+      - 韩国|01|AZ中转_2
+      - ️+[+v1+]+台湾原生+|+02
+      - "[Vip1]日本05[1.0|移动]_2"
+      - 日本|01|LIN三网优化_1
+      - 新加坡|03|奈飞OC电信优化2_1
+      - 新加坡|05|奈飞三网优化_1
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_2"
+      - 香港|13|奈飞BGP三网优化3_2
+      - 隧道|NF|日本03
+      - "[联通]日本·F1|02"
+      - 香港|06AZ三网优化_1
+      - "[联通]日本·F1|01"
+      - 隧道|NF|新加坡02
+      - 新加坡|02|奈飞DO三网优化_1
+      - "[联通]日本·F1|03 2"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_2"
+      - 香港|06AZ直连_2
+      - 香港|06AZ直连_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_1"
+      - "[联通]日本·F1|02 2"
+      - 香港|23|奈飞BGP三网优化3_2
+      - 韩国|01奈飞OC_1
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_1"
+      - 日本|03|LIN三网优化_1
+      - 香港|13|奈飞BGP三网优化3_1
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_2"
+      - "[Vip1]美国05[1.0|移动|流媒体解锁]_2"
+      - "[联通]日本·F1|01 2"
+      - +[+联通+]+韩国+·+E1+|+01
+      - ️[v1]美国原生|01
+      - 隧道|NF|韩国01
+      - 香港|02|SS三网优化_2
+      - 隧道|NF|新加坡08
+      - 日本专线|tg频道:@ripaojiedian
+      - ️+[+v1+]+台湾原生+|+01
+      - 台3[直连]-流媒体NF
+      - 香港|02|SS三网优化_1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
